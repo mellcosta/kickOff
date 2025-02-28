@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const words = [
   "Grace", "Hallelujah", "Jesus", "Faith", "Glory", 
-  "Savior", "Praise", "Mercy", "Hope", "Redeemed",
-  "Victory", "Worship", "Deliverance", "Salvation"
+  "Savior", "Praise", "Mercy", "Hope", "Blood",
+  "Victory", "Worship", "Day", "Salvation"
 ];
 
 const SingTheWord = () => {
