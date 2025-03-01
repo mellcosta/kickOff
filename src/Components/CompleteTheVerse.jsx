@@ -2,17 +2,17 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const verses = [
-  { text: "The Lord is my _____; I shall not want. (Psalm 23:1)", answer: "shepherd" },
-  { text: "I can do all things through _____ who strengthens me. (Philippians 4:13)", answer: "Christ" },
-  { text: "For God so loved the world that He gave His only _____ Son. (John 3:16)", answer: "begotten" },
-  { text: "Trust in the Lord with all your _____, and lean not on your own understanding. (Proverbs 3:5)", answer: "heart" },
-  { text: "In the beginning, God created the _____ and the earth. (Genesis 1:1)", answer: "heavens" },
-  { text: "Be still, and know that I am _____. (Psalm 46:10)", answer: "God" },
-  { text: "The joy of the Lord is your _____. (Nehemiah 8:10)", answer: "strength" },
-  { text: "We walk by faith, not by _____. (2 Corinthians 5:7)", answer: "sight" },
-  { text: "Jesus said, 'I am the way, the _____, and the life.' (John 14:6)", answer: "truth" },
-  { text: "Rejoice in the Lord always; again I will say, _____. (Philippians 4:4)", answer: "rejoice" }
-];
+    { text: "The Lord is my _____, I lack nothing. (Psalm 23:1)", answer: "shepherd" },
+    { text: "I can do all this through _____ who gives me strength. (Philippians 4:13)", answer: "him" },
+    { text: "For God so loved the world that he gave his one and only _____. (John 3:16)", answer: "Son" },
+    { text: "Trust in the Lord with all your _____ and lean not on your own understanding. (Proverbs 3:5)", answer: "heart" },
+    { text: "In the beginning God created the _____ and the earth. (Genesis 1:1)", answer: "heavens" },
+    { text: "He says, 'Be still, and know that I am _____. (Psalm 46:10)", answer: "God" },
+    { text: "The joy of the Lord is your _____. (Nehemiah 8:10)", answer: "strength" },
+    { text: "For we live by faith, not by _____. (2 Corinthians 5:7)", answer: "sight" },
+    { text: "Jesus answered, 'I am the way and the _____ and the life.' (John 14:6)", answer: "truth" },
+    { text: "Rejoice in the Lord always. I will say it again: _____. (Philippians 4:4)", answer: "Rejoice" }
+  ];  
 
 const CompleteTheVerse = () => {
   const [index, setIndex] = useState(0);
@@ -21,14 +21,14 @@ const CompleteTheVerse = () => {
   const nextVerse = () => {
     if (index < verses.length - 1) {
       setIndex(index + 1);
-      setRevealed(false); // Esconde a resposta ao mudar de verso
+      setRevealed(false);
     }
   };
 
   const prevVerse = () => {
     if (index > 0) {
       setIndex(index - 1);
-      setRevealed(false); // Esconde a resposta ao mudar de verso
+      setRevealed(false);
     }
   };
 
