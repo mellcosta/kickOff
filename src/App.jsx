@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import CompleteTheVerse from "./Components/CompleteTheVerse";
 import SingTheWord from "./Components/SingTheWord";
 import GuessTheCharacter from "./Components/GuessTheCharacter";
-import Home from "./Home"; // Nova página inicial
+import Home from "./Home";
 
 function App() {
   return (
