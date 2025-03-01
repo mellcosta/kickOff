@@ -2,9 +2,9 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const words = [
-  "Grace", "Hallelujah", "Jesus", "Faith", "Glory", 
-  "Life", "Praise", "Whorthy", "Hope", "Blood",
-  "Victory", "Worship", "Day", "Holy"
+  "Grace", "Hallelujah", "Jesus", "King", "Glory", 
+  "Savior", "Praise", "Whorthy", "Hope", "Blood",
+  "Victory", "Worship", "Day", "Holy", "Life"
 ];
 
 const SingTheWord = () => {
