@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const words = [
   "Grace", "Hallelujah", "Jesus", "King", "Glory", 
-  "Savior", "Praise", "Whorthy", "Hope", "Blood",
+  "Savior", "Praise", "Worthy", "Hope", "Blood",
   "Victory", "Worship", "Day", "Holy", "Life"
 ];
 
